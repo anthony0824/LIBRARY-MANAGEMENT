@@ -1,0 +1,18 @@
+.head{
+    --background: rgb(88, 84, 84);
+    color: rgb(34, 33, 32);
+}
+div.gallery{
+    margin-left: 115px;
+    border: 1px solid rgb(31, 30, 30);
+    float: left;
+    width: 350px;
+}
+div.gallery:hover{
+    border:1px solid grey;
+    width: 352px;
+}
+div.gallery pic{
+    width: 80%;
+    height: auto;
+}

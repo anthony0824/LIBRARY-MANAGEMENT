@@ -1,0 +1,20 @@
+.head1{
+    --background: rgb(119, 113, 113);
+    color: rgb(46, 45, 43);
+}
+big{
+    font-size: 40px;
+    margin-left: 25px;
+    color: black;
+}
+ion-card{
+    margin-left: 175px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+ion-card:hover{
+    border: 1px solid burlywood;
+    width: 85%;
+    background: rgb(139, 128, 128);
+
+}
