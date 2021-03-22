@@ -7,24 +7,24 @@ import { AlertController } from '@ionic/angular';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
-  contName = "";
-  contNumber = "";
+  ContactName = "";
+  ContactNumber = "";
   contacts: any = [];
 
   constructor( public alertCtrl: AlertController) {}
   
   savecontacts(){
     let contact = {
-      name: this.contName,
-      number: this.contNumber 
+      name: this.ContactName,
+      number: this.ContactNumber 
     }
       this.contacts.push(contact);
       this.clearField();
     }
 
   clearField(){
-    this.contName="";
-    this.contNumber="";
+    this.ContactName="";
+    this.ContactNumber="";
   }
 
   async showConfirm(cont) {
