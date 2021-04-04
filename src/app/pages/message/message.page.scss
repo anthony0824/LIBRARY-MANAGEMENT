@@ -1,0 +1,27 @@
+.message{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    white-space: pre-wrap;
+}
+.mysmg{
+    background: rgb(89, 91, 92);
+    color: rgb(250, 248, 248);
+    
+}
+.msgbox{
+    width: 100%;
+    border: 1px solid var(--ion-color-medium);
+    border-radius: 10px;
+    background: rgb(198, 201, 201);
+    resize: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(14, 8, 8);
+
+}
+.msgbutt{
+    background: rgb(79, 82, 83);
+    color: gray;
+}
+
